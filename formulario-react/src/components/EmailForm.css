@@ -1,0 +1,56 @@
+.email-form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+}
+
+.email-form-label {
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+.email-form-input {
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.email-form-input:focus {
+    border-color: #0062cc;
+    outline: none;
+}
+
+.has-error {
+    border-color: #e60000;
+}
+
+.email-error {
+    color: #e60000;
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+
+.submit-btn {
+    padding: 12px;
+    font-size: 15px;
+    background-color: #0062cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #004a99;
+}
